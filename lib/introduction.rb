@@ -1,8 +1,7 @@
 def introduction(name)
-  name = "Josh"
-  phrase = "Hi, my name is #{name}"
-  puts phrase + name
+  
+  puts "Hi, my name is #{name}"
   
 end
 
-introduction
+introduction("Josh")
